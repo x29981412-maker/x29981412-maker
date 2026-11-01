@@ -1,41 +1,44 @@
-![Shunxiang Lu — Data analysis, automation and optimization](assets/header.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <img src="assets/hero-light.svg" alt="Shawn Lu — Data analysis, automation and optimization" width="100%">
+</picture>
 
-[English](https://github.com/x29981412-maker/x29981412-maker/blob/main/README.en.md) · [联系我](mailto:x29981412@gmail.com)
+<p align="center"><samp><a href="#关于我">关于我</a> · <a href="#代表项目">项目</a> · <a href="#技术工具">技术</a> · <a href="mailto:x29981412@gmail.com">联系</a> · <a href="https://github.com/x29981412-maker/x29981412-maker/blob/main/README.en.md">English</a></samp></p>
 
-我是**路顺翔 / Shunxiang Lu**，上海财经大学信息管理与信息系统专业本科生，2028届。
+## 关于我
 
-主要关注数据分析、信息系统与流程自动化。这里整理我的研究项目，展示数据来源、分析方法、代码和报告。
+我是 **Shawn Lu / 路顺翔**，上海财经大学信息管理与信息系统专业本科生，**2028届**。
 
-### 技术方向
+主要使用 **Python、SQL 和 Oracle**，关注数据整理与核验、报表自动化及建模分析。下面是我的两个代表项目，分别涉及运筹优化和财务数据研究。
 
-| 方向 | 工具与工作内容 |
-| --- | --- |
-| 数据分析与自动化 | Python、pandas；数据清洗、统计分析、结果核验与自动化脚本 |
-| 数据库 | Oracle、SQL；多表关联、聚合查询、窗口函数与数据核对 |
-| 报表与研究 | Excel、Word；数据汇总、可视化、研究报告与规范排版 |
+## 代表项目
 
-### 代表项目
+<table><tr>
+<td width="50%" valign="top">
+<a href="https://github.com/x29981412-maker/xinjiang-tourism-optimization"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-routes-dark.svg">
+  <img src="assets/project-routes-light.svg" alt="新疆旅游线路多场景优化" width="100%">
+</picture></a>
+<h3><a href="https://github.com/x29981412-maker/xinjiang-tourism-optimization">新疆旅游线路多场景优化</a></h3>
+<p>参与四类出游场景的团队建模研究，比较景点覆盖、交通成本与行程安排。</p><p><strong>研究方法</strong><br>多模式交通网络、路径优化、混合整数规划与情景仿真。</p><p><strong>团队成果</strong><br>在固定假设下，从63条候选线路中选取18条，模型评分提升7.745%。</p>
+<p><a href="https://github.com/x29981412-maker/xinjiang-tourism-optimization">Repository ↗</a> · <a href="https://github.com/x29981412-maker/xinjiang-tourism-optimization/blob/main/paper/main.pdf">Report ↗</a></p>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/x29981412-maker/education-financial-analysis"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/project-finance-dark.svg">
+  <img src="assets/project-finance-light.svg" alt="财务数据核验与现金流分析" width="100%">
+</picture></a>
+<h3><a href="https://github.com/x29981412-maker/education-financial-analysis">财务数据核验与现金流分析</a></h3>
+<p>以新东方2023—2025财年公开数据为例，在三人小组中负责数据整理与分析。</p><p><strong>个人工作</strong><br>整理28个指标、76个披露值，保留来源记录并统一数据口径。</p><p><strong>计算分析</strong><br>使用Python完成22项勾稽检查，分析经营现金流的变动。</p>
+<p><a href="https://github.com/x29981412-maker/education-financial-analysis">Repository ↗</a> · <a href="https://github.com/x29981412-maker/education-financial-analysis/blob/main/paper/main.pdf">Report ↗</a></p>
+</td>
+</tr></table>
 
-#### [新疆旅游线路多场景优化](https://github.com/x29981412-maker/xinjiang-tourism-optimization)
+## 技术工具
 
-参与团队数学建模研究，围绕个人旅行、两年分期旅行、文化考察和节假日接待四类场景，比较景点覆盖、交通成本与行程安排。
+<table><tr><td width="33%" valign="top"><strong>数据分析</strong><p><code>Python</code> <code>pandas</code></p><p>清洗与核验<br>统计与可视化<br>自动化脚本</p></td><td width="33%" valign="top"><strong>数据库</strong><p><code>SQL</code> <code>Oracle</code></p><p>关联与聚合查询<br>窗口函数<br>数据核对</p></td><td width="33%" valign="top"><strong>报表文档</strong><p><code>Excel</code> <code>Word</code></p><p>数据透视表与图表<br>研究报告<br>规范排版</p></td></tr></table>
 
-- **研究方法：** 多模式交通网络、路径优化、调度、混合整数规划与情景仿真。
-- **团队结果：** 在固定假设下，从63条候选线路中选取18条，模型综合评分提升7.745%。
+---
 
-[研究报告](https://github.com/x29981412-maker/xinjiang-tourism-optimization/blob/main/paper/main.pdf) · [模型与结果说明](https://github.com/x29981412-maker/xinjiang-tourism-optimization#readme)
-
-#### [教育企业财务数据核验与现金流分析](https://github.com/x29981412-maker/education-financial-analysis)
-
-以新东方2023—2025财年公开年报数据为例，研究财务报表勾稽关系，以及利润与经营现金流的变化。我在三人小组中负责数据整理与分析。
-
-- **个人工作：** 整理28个指标、76个披露值，保留原始科目与页码，统一财年、币种和合并口径。
-- **计算分析：** 使用Python完成22项基本勾稽检查，分析递延收入等调整对经营现金流变动的影响。
-
-[研究报告](https://github.com/x29981412-maker/education-financial-analysis/blob/main/paper/main.pdf) · [数据与分析](https://github.com/x29981412-maker/education-financial-analysis#readme)
-
-### 联系
-
-欢迎交流数据分析、自动化和数学建模项目。
-
-**Email:** [x29981412@gmail.com](mailto:x29981412@gmail.com)
+<p align="center">项目中附有数据、方法和报告。欢迎交流数据分析、自动化和数学建模。</p>
+<p align="center"><strong><a href="mailto:x29981412@gmail.com">x29981412@gmail.com</a></strong></p>
